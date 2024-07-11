@@ -21,18 +21,18 @@ inicio
       escolha opcao
          caso 1
             escreval("----- Pratos -----")
-            escreval("1 - Pizza 1")
-            escreval("2 - Hamburguér 2")
+            escreval("1 - Prato 1")
+            escreval("2 - Prato 2")
             escreval("3 - Voltar ao menu principal")
             escreval("Escolha uma opção: ")
             leia(opcaoSubMenu)
             escolha opcaoSubMenu
                caso 1
                   escolhaPrato <- "Prato 1"
-                  escreval("Você escolheu a Pizza 1.")
+                  escreval("Você escolheu o Prato 1.")
                caso 2
                   escolhaPrato <- "Prato 2"
-                  escreval("Você escolheu o Hambúrguer 2.")
+                  escreval("Você escolheu o Prato 2.")
                caso 3
                   // Não faz nada, apenas volta ao menu principal
                outrocaso
@@ -41,18 +41,18 @@ inicio
 
          caso 2
             escreval("----- Bebidas -----")
-            escreval("1 - Refrigerante 1")
-            escreval("2 - suco 2")
+            escreval("1 - Bebida 1")
+            escreval("2 - Bebida 2")
             escreval("3 - Voltar ao menu principal")
             escreval("Escolha uma opção: ")
             leia(opcaoSubMenu)
             escolha opcaoSubMenu
                caso 1
                   escolhaBebida <- "Bebida 1"
-                  escreval("Você escolheu o refrigerante 1.")
+                  escreval("Você escolheu a Bebida 1.")
                caso 2
                   escolhaBebida <- "Bebida 2"
-                  escreval("Você escolheu o suco 2.")
+                  escreval("Você escolheu a Bebida 2.")
                caso 3
                   // Não faz nada, apenas volta ao menu principal
                outrocaso
@@ -61,18 +61,18 @@ inicio
 
          caso 3
             escreval("----- Sobremesas -----")
-            escreval("1 - Sorvete 1")
-            escreval("2 - Pudim 2")
+            escreval("1 - Sobremesa 1")
+            escreval("2 - Sobremesa 2")
             escreval("3 - Voltar ao menu principal")
             escreval("Escolha uma opção: ")
             leia(opcaoSubMenu)
             escolha opcaoSubMenu
                caso 1
                   escolhaSobremesa <- "Sobremesa 1"
-                  escreval("Você escolheu o Sorvete 1.")
+                  escreval("Você escolheu a Sobremesa 1.")
                caso 2
                   escolhaSobremesa <- "Sobremesa 2"
-                  escreval("Você escolheu o Pudim 2.")
+                  escreval("Você escolheu a Sobremesa 2.")
                caso 3
                   // Não faz nada, apenas volta ao menu principal
                outrocaso
@@ -95,7 +95,3 @@ inicio
    escreval("Sobremesa: ", escolhaSobremesa)
 
 fimalgoritmo
-
-
-              
-              

@@ -1,4 +1,4 @@
-     algoritmo "DiaDaSemana"
+algoritmo "DiaDaSemana"
 var
     numeroDia: inteiro
 

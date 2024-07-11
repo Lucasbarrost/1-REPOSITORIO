@@ -1,4 +1,4 @@
-Algoritmo "ClassificaNota"
+  Algoritmo "ClassificaNota"
 
 Var
    nota: Real
